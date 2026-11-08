@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    text-align: center;
+}
+body{
+    font-family: "Arial", monospace;
+    background-color: #7C5CFA; /*change*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.1);
+}
+.txt h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #1F2430;
+}
+.txt p{
+    margin-top: 0;
+    font-size: 15px ;
+    color: #6B7280;
+    margin-bottom: 20px;
+}
+.box-generate{
+    width: 80%;
+    background-color: #7C5CFA;
+    /* height: 30px; */
+    border-radius: 10px;
+    margin: auto;
+    padding: 90px 20px ;
+}
+.box-generate div:first-of-type{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+}
+.box-generate div:last-of-type{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 80%;
+
+}
+button:first-of-type{
+    background-color: #1F2430;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:first-of-type:active,
+button:last-of-type:active{
+    background-color: #6B7280;
+}
+button:last-of-type:active{
+    color: #FFFFFF;
+}
+button:last-of-type{
+    background-color: #FFFFFF;
+    color: #1F2430;
+    border: 3px solid #1F2430;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.history{
+    color: #6B7280;
+    font-weight: bold;
+    /* margin-top: 20   px; */
+}
+
+.history .history-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -4px;
+}
+.history .history-color  div{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #1F2430;
+    cursor: pointer;
+}
+
+.history .history-color  div{
+    background-color: transparent;
+}
+
